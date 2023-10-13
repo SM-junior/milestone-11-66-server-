@@ -22,3 +22,5 @@ app.get('/', (req, res)=>{
 app.listen(port, ()=>{
     console.log(`Server is running on PORT: ${port}`);
 })
+
+//.gitignore means it will prevent to push node_module file to github
